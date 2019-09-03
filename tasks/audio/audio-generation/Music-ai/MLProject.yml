@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 name:Music-ai
 
@@ -13,3 +14,20 @@ entry_points:
     predict:
         
         command:"python predict.py"
+=======
+
+name:Music-ai
+
+conda_env:conda.yaml
+
+
+entry_points:
+    main:
+        command:"python training.py"
+        
+        
+        
+    predict:
+        
+        command:"python predict.py"
+>>>>>>> ed0ae7c7531d9d78a7d106f34397fab4d8771b88
